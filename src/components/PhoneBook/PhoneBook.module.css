@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  color: rgb(43, 43, 77);
+}
+
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.wrapTitle {
+  width: 100%;
+  min-width: 320px;
+  max-width: 480px;
+  padding: 0 10px;
+}
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding: 10px 10px 0 0;
+}
+.subTitle {
+  font-size: 32px;
+}
